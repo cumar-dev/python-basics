@@ -6,7 +6,7 @@ print("fruits: ", fruits);
 print(fruits[0]);
 
 print(len(fruits));
-
+print(fruits[::-1]);
 # 🔹 Changing Values
 
 fruits[1] = "mongo";
@@ -37,11 +37,13 @@ print(fruits);
 fruits.pop(2);
 print(fruits);
 
+# reverse list
 
+print(fruits[::-1]);
 # slicig meesha laga bilaabay iyo meesha dhamaadka
 # 1,3,5,7,9
 numbers = [1,2,3,4,5,6,7,8,9,10];
-
+print(numbers[::-1]);
 print(numbers[0:3]);
 
 print(numbers[0:4]);
