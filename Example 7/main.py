@@ -65,3 +65,71 @@ print(numbers[::2]);
 print(numbers[::3]);
 
 print(numbers[::4]);
+
+print('_________');
+# list methods
+
+nums = [1,2,3,]
+
+# 🔹 1. append()
+
+nums.append(4);
+
+print(nums);
+
+# 2. insert()
+
+nums.insert(4, 5);
+
+print(nums);
+
+# 🔹 3. remove()
+
+nums.remove(4);
+
+print(nums);
+
+# 🔹 4. pop()
+
+nums.pop()     # remove last
+nums.pop(0)    # remove index 0
+
+print(nums);
+
+# 🔹 6. index()
+
+
+print(nums.index(3));
+
+# 🔹 5. clear()
+
+nums.clear();
+
+print(nums);
+
+# 🔹 7. count()
+
+nums = [1, 2, 2, 3]
+
+print(nums.count(2))
+
+# 🔹 8. sort()
+
+nums = [5, 2, 8, 1]
+nums.sort()
+
+print(nums)
+
+# 🔹 9. reverse()
+
+nums = [1, 2, 3]
+nums.reverse()
+
+print(nums);
+
+# 🔹 10. copy()
+
+nums = [1, 2, 3]
+new_nums = nums.copy()
+
+print(new_nums)
