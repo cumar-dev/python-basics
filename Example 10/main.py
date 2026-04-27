@@ -57,3 +57,67 @@ for values in phone_book.values():
 for name, number in phone_book.items():
     print(name, "->", number);
     
+
+# loop
+
+num = [1, 2, 3, 4, 5];
+
+for n in num:
+    print("n: ", n);
+
+for n in range(4):
+    print(n);
+
+for n in range(1, 10):
+    print(n);
+
+names = ["Ana", "Bo", "Cy"];
+
+for i, name in enumerate(names):
+    print(i, names);
+
+
+scores = {"Ana": 90, "Bo": 88}
+for name in scores:
+    print(name, scores[name]);
+
+for name, score in scores.items():
+    print(str(name) + ": " + str(score));
+
+
+# Iterate and slice (for + range + enumerate)
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+print(numbers[::-1]);
+
+for n in numbers:
+    print(n)
+
+for n in range(8):
+    print(n)
+
+nums = list(range(10))
+print(nums[::2])
+
+nums = list(range(9));
+print(nums[::3]);
+
+for n in range(3, 8):
+    print(n);
+
+words = ["go", "python", "code"];
+
+for index, word in enumerate(words):
+     print(f"{index}: {word}")
+
+
+profile = {
+    "name": "omar",
+    "email": "omar@gmail.com",
+    "age": 20,
+    "location": "mogadisho"
+}
+
+for key, value in profile.items():
+    print(key, ": ", value);
+
