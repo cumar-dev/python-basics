@@ -32,6 +32,19 @@ else:
     print("no each of them get");
 
 
+
+fruit1 = ["mongo", "banana", "orange"]
+fruit2 = ["grape", "apple", "date"]
+
+print(set(fruit1) | set(fruit2))
+
+fruit1 = {"mongo", "banana", "orange"}
+fruit2 = {"grape", "apple", "date"}
+
+fruit1.add("onion");
+print(fruit1)
+print(fruit1 | fruit2);
+
 # dictionary
 
 phone_book = {
@@ -121,3 +134,30 @@ profile = {
 for key, value in profile.items():
     print(key, ": ", value);
 
+
+count = 1;
+
+while count <= 5:
+    print(count);
+    count +=1;
+
+name = ""
+
+while name != "exit":
+    name = input("Enter your name (type 'exit' to stop): ")
+    if name != "exit":
+        print("hello", name)
+
+print("ok, bye") 
+
+total = 0
+
+while True:
+    num = int(input("Enter a number (0 to stop): "))
+    
+    if num == 0:
+        break
+    
+    total += num
+
+print("Total:", total)
