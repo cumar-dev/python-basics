@@ -123,6 +123,8 @@ words = ["go", "python", "code"];
 for index, word in enumerate(words):
      print(f"{index}: {word}")
 
+for words in "pthon":
+    print("python get: "+words);
 
 profile = {
     "name": "omar",
