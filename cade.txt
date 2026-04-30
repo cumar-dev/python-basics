@@ -1,0 +1,3 @@
+Hello omar
+ what do you want to do today?
+Today i am practicing file handling
